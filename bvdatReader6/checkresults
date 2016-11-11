@@ -1,0 +1,13 @@
+#! /bin/bash
+# check results of condor outputs with original results.
+
+
+ORIGINAL_DIR=~/bvdatReader4/newrunsdir
+echo $ORIGINAL_DIR
+NEW_DIR=./newrunsdir/
+
+for file in  $ORIGINAL_DIR/*
+do
+    fname=$(basename $file)
+    diff $file $NEW_DIR/$fname
+done

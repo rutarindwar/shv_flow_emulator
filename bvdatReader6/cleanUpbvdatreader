@@ -1,0 +1,25 @@
+#! /bin/bash
+
+# The output of bvdatareader is transposed. It has 2048 files of 1953 lines each.
+# This script returns 1953 files of 2048 lines each.
+# for each nth index of files heightCols, read the nth line of each remaining file 
+# and save it in the corresponding height_ file 
+
+
+OUTDIR=./newrunsdir
+
+tmpbase=heightsCols_
+outbase=heights_
+ind=$(($1 + 1))
+printf -v paddedind "%06d" $ind
+
+outfilename=$OUTDIR/$outbase$paddedind.txt
+echo $outfilename
+
+echo 0.000000 > $outfilename
+
+for j in  $(seq -f "%06g" 2 2048)
+do
+    line=$(sed -n "${ind}{p;q;}" $OUTDIR/$tmpbase$j.txt)
+    echo $line >> $outfilename
+done

@@ -1,0 +1,9 @@
+Universe    = vanilla
+Executable  = feawrapper
+Arguments   = $(Process)
+Log         = dirCondorLog/log.$(Process)
+Output      = dirCondorLog/out.$(Process)
+Error       = dirCondorLog/err.$(Process)
+getenv      = True
+
+Queue 1953

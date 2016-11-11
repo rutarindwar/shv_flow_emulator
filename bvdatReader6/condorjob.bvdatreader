@@ -1,0 +1,8 @@
+Universe    = vanilla
+Executable  = bvdatreader
+Arguments   = $(Process)
+Log         = dircondorbvdr/log.$(Process)
+Output      = dircondorbvdr/out.$(Process)
+Error       = dircondorbvdr/err.$(Process)
+
+Queue 2047

@@ -1,0 +1,8 @@
+Universe    = vanilla
+Executable  = designAutoNr
+Arguments   = $(Process)
+Log         = dircondordan/log.$(Process)
+Output      = dircondordan/out.$(Process)
+Error       = dircondordan/err.$(Process)
+
+Queue 1953

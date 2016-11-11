@@ -1,0 +1,38 @@
+000 (3470167.1219.000) 09/22 17:40:44 Job submitted from host: <10.12.13.251:42982>
+...
+001 (3470167.1219.000) 09/22 17:41:14 Job executing on host: <10.12.12.135:39352>
+...
+005 (3470167.1219.000) 09/22 17:41:14 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :      225      225          
+	   Memory (MB)          :                 1          
+...
+000 (3548279.1219.000) 11/10 08:20:46 Job submitted from host: <10.12.13.251:42982>
+...
+001 (3548279.1219.000) 11/10 08:21:48 Job executing on host: <10.12.12.121:29155>
+...
+005 (3548279.1219.000) 11/10 08:21:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request          
+	   Cpus                 :                 1          
+	   Disk (KB)            :      225      225          
+	   Memory (MB)          :                 1          
+...

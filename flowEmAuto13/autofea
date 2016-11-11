@@ -1,0 +1,37 @@
+#! /bin/bash
+# Run flow emulator for all subdesigns
+
+INdirname=./subdesignsIO
+basename=logheightp_
+lastind=500
+logfilename=log.autofea
+
+if [ -e log.passfail ]
+then
+    rm log.passfail
+fi
+
+for id in $(seq -f "%1g" 174 $lastind)
+do
+    printf -v pad_id "%06d" $id
+    filename=$INdirname/$basename$pad_id.txt
+    nbrlines=$(cat $filename | wc -l)
+    
+    if [ $nbrlines -gt 1 ]
+    then 
+       # ./fea $id || exit 1
+#        trap 'echo "encountered a NAN"' SIGABRT
+        ./fea $id
+        if [ $? -ne 0 ]
+        then
+            echo $filename "Failed" >> log.passfail
+        #else
+         #   echo $filename "Passed" >> log.passfail
+        fi
+        echo
+        printf "%0.s-" {1..75} 
+        echo
+        echo
+    fi
+done
+

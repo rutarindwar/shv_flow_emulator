@@ -1,0 +1,10 @@
+#! /bin/bash
+# Wrapper to run fea and catch errors
+
+id=$(($1 + 1))
+./fea $id
+if [ $? -ne 0 ]
+then
+    echo $(($1 + 1)) "Failed"
+    echo $(($1 + 1)) "Failed" >> logfail.txt
+fi

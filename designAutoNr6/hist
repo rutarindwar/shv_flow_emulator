@@ -1,0 +1,1000 @@
+  167  ls
+  168  clear
+  169  ls
+  170  vim bvdatreader
+  171  vim bvdatreader.c
+  172  vim bvdatreader.c
+  173  exit
+  174  ls
+  175  cd bvdatReader/bvdatReader6/
+  176  ls
+  177  clear
+  178  make
+  179  ./bvdatreader 
+  180  ls ../
+  181  ls ../bvdatReader5/newrunsdir
+  182  clear
+  183  ls ../bvdatReader5/newrunsdir >> lsheightrueOriginal
+  184  ls
+  185  ls newrunsdir/ >> lsheightrueNew
+  186  less lsheightrueNew 
+  187  diff lsheightrueNew lsheightrueOriginal 
+  188  less lsheightrueNew
+  189  less newrunsdir/heights_000001.txt 
+  190  chmod 755 checkresults 
+  191  ./checkresults 
+  192  clear
+  193  alias clc='clear'
+  194  clc
+  195  ./checkresults 
+  196  ls
+  197  pwd
+  198  clear
+  199  ./checkresults 
+  200  ./checkresults 
+  201  clc
+  202  ./checkresults 
+  203  clc
+  204  ./checkresults 
+  205  man basename
+  206  ./checkresults 
+  207  clera
+  208  clc
+  209  ./checkresults 
+  210  clear
+  211  ./checkresults 
+  212  clc
+  213  ./checkresults 
+  214  wc -l lsheightrueNew 
+  215  ls
+  216  less newrunsdir/
+  217  clear
+  218  wc -l newrunsdir/*
+  219  $(1+4)
+  220  (1+4)
+  221  $((1+4))
+  222  $((25/5))
+  223  clear
+  224  less newrunsdir/heights_000001.txt 
+  225  cd -
+  226  cd -
+  227  head -n 1 ../bvdatReader5/newrunsdir/*
+  228  head -n 1 ../bvdatReader5/newrunsdir/* >> firstcolumn
+  229  less firstcolumn 
+  230  head -n 1 ../bvdatReader5/newrunsdir/heights_00* > firstcolumn
+  231  less firstcolumn 
+  232  clear
+  233  read -r 1 < ../bvdatReader5/newrunsdir/heights_00* > firstcolumn
+  234  read -r 1 < ../bvdatReader5/newrunsdir/heights_000001.txt 
+  235  man read
+  236  read -r 1  ../bvdatReader5/newrunsdir/heights_000001.txt 
+  237  less ../bvdatReader5/newrunsdir/heights_000001.txt
+  238  firstline=1
+  239  echo $firstline
+  240  read -r $firstline< ../bvdatReader5/newrunsdir/heights_000001.txt 
+  241  head -1 ../bvdatReader5/newrunsdir/heights_000001.txt
+  242  head -1 ../bvdatReader5/newrunsdir/heights_00* > firstcolumn
+  243  less firstcolumn 
+  244  less oct_output_files_20cells/
+  245  lc
+  246  ls
+  247  clear
+  248  ls
+  249  make clean
+  250  clear
+  251  make
+  252  clear
+  253  unalias clc
+  254  clear
+  255  sls
+  256  clear
+  257  make clean
+  258  make
+  259  make clean
+  260  make
+  261  cler
+  262  clear
+  263  ./bvdatreader 2
+  264  make 
+  265  clear
+  266  make clean; make
+  267  ./bvdatreader 2
+  268  clear; make clean; make
+  269  clear; make clean; make
+  270  ./bvdatreader 2
+  271  clear
+  272  clear; make clean; make
+  273  ./bvdatreader 2
+  274  clear
+  275  make
+  276  clear; make clean; make
+  277  ./bvdatreader 2
+  278  ./bvdatreader 3
+  279  clear
+  280  clear; make clean; make
+  281  ./bvdatreader 2
+  282  less newrunsdir/elevation_20.grid 
+  283  less newrunsdir/heights_000001.txt 
+  284  clear
+  285  clear; make clean; make
+  286  ./bvdatreader 2
+  287  ls
+  288  ls ./newrunsdirclea
+  289  cler
+  290  clear
+  291  clear; make clean; make
+  292  ./bvdatreader 2
+  293  less newrunsdir/heightsCols_000002.txt 
+  294  rm newrunsdir/heightsCols_000002.txt
+  295  clear
+  296  make clean; make; 
+  297  ./bvdatreader 2
+  298  less newrunsdir/heightsCols_000002.txt
+  299  wc -l newrunsdir/heightsCols_000002.txt
+  300  condor_q 
+  301  condor_q -submitter 3942gandhid
+  302  clear
+  303  make clean; make
+  304  ./bvdatreader 0
+  305  less ../bvdatReader5/oct_output_files_20cells/pileheightrecord.002048
+  306  clear
+  307  rm newrunsdir/heightsCols_000002.txt 
+  308  clear
+  309  ls
+  310  clear
+  311  make clean
+  312  make
+  313  clear
+  314  condor_submit condorjob.submit 
+  315  ls
+  316  make clean
+  317  make
+  318  clear
+  319  ls
+  320  pwd
+  321  clear
+  322  condor_submit condorjob.submit 
+  323  condor_q -submitter rutarindwar
+  324  watch condor_q -submitter rutarindwar
+  325  ls
+  326  clear
+  327  ls dircondor/
+  328  less dircondor/err.1
+  329  clear
+  330  ls
+  331  ls newrunsdir/*
+  332  ls newrunsdir/heightsCols_00* | wc -l
+  333  clear
+  334  ls
+  335  ls newrunsdir/
+  336  clear
+  337  rm newrunsdir/heights_00*
+  338  ls newrunsdir/
+  339  less 
+  340  less newrunsdir/
+  341  chmod cleanUpbvdatreader 
+  342  chmod 755 cleanUpbvdatreader 
+  343  clear
+  344  less newrunsdir/
+  345  ./cleanUpbvdatreader 
+  346  ls
+  347  less checkresults 
+  348  clear
+  349  less newrunsdir/
+  350  ./cleanUpbvdatreader 
+  351  less newrunsdir/
+  352  man touch
+  353  less newrunsdir/
+  354  clear
+  355  ./cleanUpbvdatreader 
+  356  pwd
+  357  clear
+  358  less newrunsdir/
+  359  ./cleanUpbvdatreader 
+  360  less newrunsdir/
+  361  less newrunsdir/heightsCols_000001.txt 
+  362  less newrunsdir/heightsCols_000002.txt 
+  363  clear
+  364  ./cleanUpbvdatreader 
+  365  wc -l newrunsdir/heightsCols_000001.txt 
+  366  ./cleanUpbvdatreader 
+  367  less newrunsdir/
+  368  less newrunsdir/heightsCols_000001.txt 
+  369  wc -l newrunsdir/heightsCols_000001.txt
+  370  ./cleanUpbvdatreader 
+  371  wc -l newrunsdir/heightsCols_000001.txt
+  372  ls newrunsdir/ | wc -l
+  373  ls newrunsdir/
+  374  clear
+  375  ./cleanUpbvdatreader 
+  376  less newrunsdir/heightsCols_002048.txt 
+  377  clear
+  378  ./cleanUpbvdatreader 
+  379  less newrunsdir/
+  380  clear
+  381  ./cleanUpbvdatreader 
+  382  clear
+  383  ./cleanUpbvdatreader 
+  384  less ../bvdatReader5/newrunsdir/
+  385  less ../bvdatReader5/newrunsdir/ | wc -l
+  386  less ../bvdatReader5/newrunsdir/
+  387  ls ../bvdatReader5/newrunsdir/ | wc -l
+  388  less ../bvdatReader5/newrunsdir/
+  389  $((1 + 3))
+  390  $((0001 + 3))
+  391  less ../bvdatReader5/newrunsdir/
+  392  clear
+  393  ls newrunsdir/
+  394  ls newrunsdir/ | wc -l
+  395  clear
+  396  clear
+  397  ./cleanUpbvdatreader 
+  398  ls newrunsdir/ | wc -l
+  399  ./bvdatreader 
+  400  ./cleanUpbvdatreader 
+  401  clear
+  402  ./cleanUpbvdatreader 
+  403  less newrunsdir/
+  404  ./cleanUpbvdatreader 
+  405  ls
+  406  less newrunsdir/
+  407  rm newrunsdir/heights_00000*
+  408  clear
+  409  ./cleanUpbvdatreader 
+  410  diff ../bvdatReader5/newrunsdir/heights_000179.txt ./newrunsdir/heights_000179.txt 
+  411  diff ../bvdatReader5/newrunsdir/heights_000178.txt ./newrunsdir/heights_000178.txt 
+  412  wc -l ../bvdatReader5/newrunsdir/heights_000178.txt 
+  413  wc -l newrunsdir/heights_000178.txt 
+  414  clear
+  415  rm newrunsdir/heights_000*
+  416  ./cleanUpbvdatreader 
+  417  diff ../bvdatReader5/newrunsdir/heights_000003.txt ./newrunsdir/heights_000003.txt 
+  418  clear
+  419  diff ../bvdatReader5/newrunsdir/heights_000001.txt ./newrunsdir/heights_000001.txt 
+  420  clear
+  421  wc -l newrunsdir/heights_000001.txt 
+  422  rm newrunsdir/heights_00000*
+  423  clear
+  424  ./cleanUpbvdatreader 
+  425  wc -l newrunsdir/heights_000001.txt 
+  426  diff ../bvdatReader5/newrunsdir/heights_000001.txt ./newrunsdir/heights_000001.txt 
+  427  less ./newrunsdir/heights_000001.txt
+  428  less bvdatreader.c
+  429  make clean
+  430  make
+  431  clear
+  432  make clean
+  433  make makefile 
+  434  make clean
+  435  make makefile 
+  436  ls
+  437  man makefile
+  438  man make
+  439  make -f makefile 
+  440  clear
+  441  less makefile 
+  442  less bvdatreader.c 
+  443  rm newrunsdir/heights_00000*
+  444  gcc -c cleanUp.c 
+  445  less bvdatreader.c 
+  446  gcc -c cleanUp.c 
+  447  less bvdatreader.c 
+  448  clear
+  449  gcc -c cleanUp.c 
+  450  gcc -c cleanUp.c 
+  451  ls
+  452  clear
+  453  gcc -c cleanUp.c 
+  454  less bvdatreader.c 
+  455  gcc -c cleanUp.c 
+  456  ls
+  457  cat makefile 
+  458  gcc -o cleanUp matrixOperations.o cleanUp.o
+  459  rm cleanUp.c cleanUp.o
+  460  clear
+  461  ls
+  462  mv condorjob.submit condorjob.bvdatreader
+  463  ls
+  464  rm _condor_std*
+  465  ls
+  466  clear
+  467  ls
+  468  rm regi*
+  469  ls newrunsdir/
+  470  clear
+  471  less clear
+  472  less newrunsdir/
+  473  rm newrunsdir/*
+  474  condor_q condorjob.bvdatreader 
+  475  less condorjob.bvdatreader 
+  476  condor_submit condorjob.bvdatreader 
+  477  watch condor_q -submitter rutarindwar
+  478  clear
+  479  ls newrunsdir/
+  480  less dircondor/
+  481  less dircondor/err.1
+  482  less dircondor/out.1
+  483  pwd
+  484  ls
+  485  ls newrunsdir/
+  486  less _condor_stderr 
+  487  ls newrunsdir
+  488  cp ../bvdatReader5/newrunsdir/elevation_20.grid  ./newrunsdir/
+  489  ls newrunsdir/
+  490  clear
+  491  ls newrunsdir/
+  492  clear
+  493  condor_submit condorjob.bvdatreader 
+  494  watch "condor_q -submitter rutarindwar | wc -l"
+  495  condor_q -submitter rutarindwar
+  496  clear
+  497  ls newrunsdir/
+  498  ls newrunsdir/ | wc -l
+  499  clear
+  500  ./cleanUpbvdatreader 0
+  501  clear
+  502  ls newrunsdir/ | wc -l
+  503  rm newrunsdir/heights_.txt 
+  504  ls newrunsdir/ | wc -l
+  505  less newrunsdir/
+  506  clear
+  507  ./cleanUpbvdatreader 0
+  508  wc -l newrunsdir/heightsCols_000002.txt 
+  509  ls newrunsdir/
+  510  clear
+  511  rm newrunsdir/heights_000000.txt 
+  512  ./cleanUpbvdatreader 0
+  513  rm newrunsdir/heights_000000.txt 
+  514  ./cleanUpbvdatreader 0
+  515  rm newrunsdir/heights_000000.txt 
+  516  clear
+  517  ./cleanUpbvdatreader 0
+  518  less newrunsdir/heights_000001.txt 
+  519  diff newrunsdir/heights_000001.txt ../bvdatReader5/newrunsdir/heights_000001.txt 
+  520  cp condorjob.bvdatreader condorjob.cleanUpbvdr
+  521  rm dircondor/*
+  522  mv dircondor/ dircondorbvdr/
+  523  ls
+  524  mkdir dircondorcu/
+  525  ls
+  526  clear
+  527  condor_submit condorjob.cleanUpbvdr 
+  528  ls newrunsdir/
+  529  less _condor_std*
+  530  less newrunsdir/
+  531  less newrunsdir/
+  532  watch condor_q -submitter rutarindwar
+  533  man condor
+  534  watch condor_q -submitter rutarindwar
+  535  less newrunsdir/
+  536  wc -l newrunsdir/heights_000001.txt 
+  537  watch condor_q -submitter rutarindwar
+  538  watch "condor_q -submitter rutarindwar | wc -l"
+  539  watch "condor_q -submitter rutarindwar | wc -l"
+  540  diff newrunsdir/heights_000207.txt  ../bvdatReader5/newrunsdir/heights_000207.txt 
+  541  man condor_rm 
+  542  condor_rm -help
+  543  condor_rm -all
+  544  less newrunsdir/heights_000001.txt 
+  545  diff less newrunsdir/heights_000001.txt  ../bvdatReader5/newrunsdir/heights_000001.txt 
+  546  clear; diff newrunsdir/heights_000001.txt  ../bvdatReader5/newrunsdir/heights_000001.txt 
+  547  diff newrunsdir/heights_000001.txt  ../bvdatReader5/newrunsdir/heights_000001.txt 
+  548  diff newrunsdir/heights_000002.txt  ../bvdatReader5/newrunsdir/heights_000002.txt 
+  549  wc -l ../bvdatReader5/newrunsdir/heights_000002.txt
+  550  wc -l newrunsdir/heights_000002.txt
+  551  rm newrunsdir/heights_00*
+  552  less newrunsdir/
+  553  clear
+  554  condor_submit condorjob.cleanUpbvdr 
+  555  less newrunsdir/
+  556  condor_q -submitter rutarindwar
+  557  condor_q -submitter rutarindwar
+  558  condor_q -submitter rutarindwar
+  559  condor_q -submitter rutarindwar
+  560  condor_q -submitter rutarindwar
+  561  condor_q -submitter rutarindwar
+  562  condor_q -submitter rutarindwar
+  563  condor_q -submitter rutarindwar
+  564  [A
+  565  condor_q -submitter rutarindwar
+  566  diff newrunsdir/heights_000001.txt  ../bvdatReader5/newrunsdir/heights_000002.txt 
+  567  diff newrunsdir/heights_000001.txt  ../bvdatReader5/newrunsdir/heights_000001.txt 
+  568  diff newrunsdir/heights_000002.txt  ../bvdatReader5/newrunsdir/heights_000002.txt 
+  569  less ../bvdatReader5/newrunsdir/heights_000002.txt
+  570  less ../bvdatReader5/newrunsdir/heights_000001.txt
+  571  less ../bvdatReader5/newrunsdir/heights_000003.txt
+  572  ls
+  573  ls
+  574  cd bvdatReader/bvdatReader4/
+  575  ls
+  576  cd bvdatReader/bvdatReader6/
+  577  ls
+  578  clear
+  579  cd
+  580  ls
+  581  ls bvdatReader
+  582  ls designAutoNr/designAutoNr4/
+  583  condor_q
+  584  clear
+  585  ls
+  586  cd bvdatReader
+  587  ls
+  588  cd bvdatReader6/
+  589  ls
+  590  make clean
+  591  ls -a
+  592  clear
+  593  ls
+  594  vim bvdatreader.c 
+  595  less newrunsdir/heights_000002.txt 
+  596  cd bvdatReader/bvdatReader6/newrunsdir
+  597  ls
+  598  clear
+  599  less *
+  600  less ./
+  601  less heights_000003.txt 
+  602  less heights_000002.txt 
+  603  man sed
+  604  vim heights_000002.txt
+  605  man sed
+  606  vim heights_000002.txt
+  607  rm heights_00000*
+  608  less heights_000001.txt 
+  609  wc -l heights_000001.txt
+  610  rm heights_000001.txt
+  611  less ./
+  612  less heights_000001.txt 
+  613  rm heights_000001.txt
+  614  less heights_000001.txt 
+  615  rm heights_000001.t
+  616  less heights_000001.txt 
+  617  less ./
+  618  rm heights_000001.txt 
+  619  less heights_000001.txt
+  620  less heights_000001.txt
+  621  clear
+  622  less heights_000001.txt 
+  623  less heights_000002.txt 
+  624  diff heights_000002.txt ../../bvdatReader5/newrunsdir/heights_000002.txt 
+  625  less ../../bvdatReader5/newrunsdir/
+  626  diff heights_000002.txt ../../bvdatReader5/newrunsdir/heights_000002.txt 
+  627  diff heights_000001.txt ../../bvdatReader5/newrunsdir/heights_000001.txt 
+  628  diff heights_001953.txt ../../bvdatReader5/newrunsdir/heights_001953.txt 
+  629  less ./
+  630  rm heights_00*
+  631  diff heights_000001.txt ../../bvdatReader5/newrunsdir/heights_000001.txt 
+  632  diff heights_000002.txt ../../bvdatReader5/newrunsdir/heights_000002.txt 
+  633  less ./
+  634  less ./
+  635  clear
+  636  ls
+  637  ls | wc -l
+  638  less ./
+  639  less ../dircondorbvdr/err.1
+  640  less ../dircondorbvdr/out.1
+  641  less ../dircondorbvdr/log.1
+  642  less ../dircondorcu/log.1
+  643  man time
+  644  less ../dircondorbvdr/log.1
+  645  less ../dircondorbvdr/out.1
+  646  cd ~/designAutoNr/designAutoNr4/
+  647  clear
+  648  less subdesignsIO/
+  649  ls subdesignsIO/ | wc -l
+  650  less subdesignsIO/
+  651  ./checkresults 
+  652  cd
+  653  cd -
+  654  clear
+  655  ./checkresults 
+  656  clear
+  657  ./checkresults 
+  658  ./checkresults  > comparison
+  659  less comparison 
+  660  less ~/designAutoNr2/subdesignsIO/designp_000023.txt 
+  661  less comparison 
+  662  cd bvdatReader/bvdatReader6/
+  663  clear
+  664  ls
+  665  ls
+  666  less lsheightrueOriginal 
+  667  man head
+  668  man read
+  669  sed '66q;d' newrunsdir/heights_000002.txt 
+  670  clear
+  671  ./cleanUpbvdatreader 0
+  672  clear
+  673  ./cleanUpbvdatreader 0
+  674  ./cleanUpbvdatreader 0
+  675  ./cleanUpbvdatreader 0
+  676  clear
+  677  ./cleanUpbvdatreader 0
+  678  ./cleanUpbvdatreader 0
+  679  man echo
+  680  line=regis
+  681  echo $line
+  682  echo $line\n
+  683  man echo
+  684  echo '$line'
+  685  echo '$line\n'
+  686  echo $line'\n'
+  687  echo $line"\n"
+  688  man printf
+  689  man printf
+  690  clear
+  691  printf "%s\n" $line
+  692  printf "%s" $line
+  693  nbr=0.341243
+  694  echo $nbr
+  695  printf "%f\n" $nbr
+  696  printf "%d\n" $nbr
+  697  printf "%g\n" $nbr
+  698  printf "%g\n" $nbr >> testnbr
+  699  ls 
+  700  less testnbr 
+  701  rm testnbr 
+  702  cler
+  703  clear
+  704  ./cleanUpbvdatreader 0
+  705  rm newrunsdir/heights_000001.txt 
+  706  ./cleanUpbvdatreader 0
+  707  rm newrunsdir/heights_000001.txt 
+  708  clear
+  709  ./cleanUpbvdatreader 0
+  710  ./cleanUpbvdatreader 0
+  711  man sed
+  712  sed 2q bvdatreader.c
+  713  sed -2q bvdatreader.c
+  714  clear
+  715  sed -n 2 bvdatreader.c
+  716  man sed
+  717  sed -n -e 2p bvdatreader.c
+  718  sed -n -e 10p bvdatreader.c
+  719  less bvdatreader.c
+  720  rm newrunsdir/heights_000001.txt 
+  721  clear
+  722  ./cleanUpbvdatreader 0
+  723  man sed
+  724  clear
+  725  rm newrunsdir/heights_000001.txt 
+  726  ./cleanUpbvdatreader 0
+  727  rm newrunsdir/heights_000001.txt 
+  728  clear
+  729  ./cleanUpbvdatreader 0
+  730  cclear
+  731  clear
+  732  clear
+  733  ./cleanUpbvdatreader 0
+  734  clear
+  735  ./cleanUpbvdatreader 0
+  736  rm newrunsdir/heights_000001.txt 
+  737  clear
+  738  ./cleanUpbvdatreader 0
+  739  time ./cleanUpbvdatreader 1
+  740  [ -f ./newrunsdir/heights_*]
+  741  [ -f ./newrunsdir/heights_* ]
+  742  [ -f ./newrunsdir/heights_000001.txt ]
+  743  man touch
+  744  less
+  745  man touch > mantouch
+  746  less mantouch 
+  747  touch mantouch 
+  748  less mantouch 
+  749  rm mantouch 
+  750  clear
+  751  ./cleanUpbvdatreader 0
+  752  less ./newrunsdir/heights_000002.txt 
+  753  ./cleanUpbvdatreader 1
+  754  rm newrunsdir/heights_000002.txt 
+  755  ./cleanUpbvdatreader 1
+  756  rm newrunsdir/heights_000002.txt 
+  757  ./cleanUpbvdatreader 1
+  758  clear
+  759  rm newrunsdir/heights_000002.txt 
+  760  rm newrunsdir/heights_000001.txt 
+  761  clear
+  762  ./cleanUpbvdatreader 0
+  763  less newrunsdir/heights_000001.txt
+  764  less newrunsdir/heights_000001.txt
+  765  filename=newrunsdir/heights_000001.txt
+  766  echo $filename
+  767  rm $filename 
+  768  clear
+  769  ./cleanUpbvdatreader 0
+  770  rm newrunsdir/heights_000001.txt 
+  771  ./cleanUpbvdatreader 0
+  772  clear
+  773  rm newrunsdir/heights_000001.txt 
+  774  rm newrunsdir/heights_000002.txt 
+  775  ./cleanUpbvdatreader 0
+  776  less newrunsdir/heights_000001.txt 
+  777  ./cleanUpbvdatreader 0
+  778  less newrunsdir/heights_000001.txt 
+  779  rm -f newrunsdir/heights_000001.txt
+  780  rm -f newrunsdir/heights_000001.txt
+  781  rm -f newrunsdir/heights_000001.txt
+  782  clear
+  783  ./cleanUpbvdatreader 0
+  784  clear
+  785  rm newrunsdir/heights_000001.txt 
+  786  rm newrunsdir/heights_000
+  787  ./cleanUpbvdatreader 0
+  788  ./cleanUpbvdatreader 1
+  789  ./cleanUpbvdatreader 2
+  790  ./cleanUpbvdatreader 1953
+  791  rm newrunsdir/heights_001954.txt 
+  792  ./cleanUpbvdatreader 1952
+  793  condor_submit condorjob.cleanUpbvdr 
+  794  condor_q -submitter rutarindwar
+  795  condor_q -submitter rutarindwar
+  796  rm newrunsdir/heights_00000*
+  797  ls
+  798  clear
+  799  condor_submit condorjob.cleanUpbvdr 
+  800  condor_q -submitter rutarindwar
+  801  clear
+  802  ./checkresults 
+  803  ls
+  804  condor_status -help
+  805  condor_status -submitter rutarindwar
+  806  clear
+  807  ls
+  808  rm cleanUp.c cpymakefile _condor_std*
+  809  ls
+  810  clear
+  811  ls
+  812  less ImplementationNotes 
+  813  less printffile 
+  814  rm printffile 
+  815  clear
+  816  ls
+  817  rm dircondorbvdr/* dircondorcu/* newrunsdir/heights*
+  818  ls dircondorbvdr/
+  819  ls dircondorcu/
+  820  ls newrunsdir/
+  821  clear
+  822  condor_submit condorjob.bvdatreader 
+  823  finger
+  824  who
+  825  clear
+  826  condor_status -submiter rutarindwar
+  827  clear
+  828  condor_status -submitters rutarindwar
+  829  condor_q -submitter rutarindwar
+  830  condor_submit condorjob.cleanUpbvdr 
+  831  watch 'condor_q -submitter rutarindwar'
+  832  clear
+  833  ./checkresults 
+  834  time ./cleanUpbvdatreader 0
+  835  ./bvdatreader 0
+  836  clear
+  837  ls
+  838  ls
+  839  less _condor_stdout 
+  840  rm _condor_std*
+  841  ls
+  842  clear
+  843  ls
+  844  rm firstcolumn 
+  845  ls
+  846  rm lsheightrue*
+  847  ls
+  848  less pilegrid 
+  849  less tmppileheight.txt 
+  850  rm pilegrid tmppileheight.txt 
+  851  clear
+  852  ls
+  853  rm newrunsdir/heightsCols_00*
+  854  less newrunsdir/
+  855  ./checkresults 
+  856  ls
+  857  rm dircondorcu/* dircondorbvdr/*
+  858  ls
+  859  ./checkresults 
+  860  clear
+  861  clear
+  862  ./checkresults 
+  863  cler
+  864  clear
+  865  pwd
+  866  cd
+  867  ls
+  868  cd designAutoNr/
+  869  ls
+  870  less designAutoNr4/
+  871  cd designAutoNr4/
+  872  ls
+  873  less condorjob.submit 
+  874  clear
+  875  ls
+  876  less newrunsdir/
+  877  less newrunsdir/
+  878  less subdesignsIO/
+  879  rm subdesignsIO/*
+  880  ls
+  881  clear
+  882  ls
+  883  mv condorjob.submit condorjob.designAutoNr
+  884  ls
+  885  make clean
+  886  make
+  887  clear
+  888  condor_submit condorjob.designAutoNr 
+  889  ls ../
+  890  less newrunsdir/
+  891  condor_q -submitter rutarindwar
+  892  less newrunsdir/
+  893  condor_rm all
+  894  condor_rm 3470151
+  895  condor_q -h
+  896  condor_rm -h
+  897  condor_rm -all
+  898  condor_rm rutarindwar
+  899  condor_q -submitter rutarindwar
+  900  clear
+  901  ls subdesignsIO/
+  902  clear
+  903  less subdesignsIO/
+  904  less subdesignsIO/designp_001953.txt 
+  905  less newrunsdir/
+  906  less dircondor/out.1
+  907  less dircondor/out.1953
+  908  less newrunsdir/
+  909  ./designAutoNr 0
+  910  ./designAutoNr 1
+  911  ./designAutoNr 19434
+  912  ./designAutoNr 1953
+  913  ./designAutoNr 1952
+  914  rm subdesignsIO/*
+  915  clear
+  916  make clean
+  917  make
+  918  clear
+  919  condor_submit condorjob.designAutoNr 
+  920  condor_q -submitter rutarindwar
+  921  condor_q -submitter rutarindwar
+  922  condor_q -submitter rutarindwar
+  923  clear
+  924  ls subdesignsIO/* | wc -l
+  925  cp ~/bvdatReader/bvdatReader6/checkresults ./
+  926  ls
+  927  ls ~
+  928  ls ../
+  929  ls ../designAutoNr2/
+  930  ls ../designAutoNr2/subdesignsIO/
+  931  clear
+  932  ls ../designAutoNr2/subdesignsIO/
+  933  pwd
+  934  clear
+  935  ls
+  936  ./checkresults 
+  937  clear
+  938  ./checkresults 
+  939  clear
+  940  ls
+  941  clear
+  942  origdir=../designAutoNr2/subdesignsIO/
+  943  echo $origdir 
+  944  diff /home/MARQNET/rutarindwar/designAutoNr/designAutoNr2/subdesignsIO/designp_000001.txt subdesignsIO/designp_000001.txt 
+  945  diff /home/MARQNET/rutarindwar/designAutoNr/designAutoNr2/subdesignsIO/logheightp_000001.txt subdesignsIO/logheightp_000001.txt 
+  946  diff /home/MARQNET/rutarindwar/designAutoNr/designAutoNr2/subdesignsIO/designp_001953.txt subdesignsIO/designp_001953.txt 
+  947  clear
+  948  ./checkresults 
+  949  diff /home/MARQNET/rutarindwar/designAutoNr/designAutoNr2/subdesignsIO/logheightp_000023.txt subdesignsIO/logheightp_000023.txt 
+  950  clear
+  951  cd ..
+  952  ls
+  953  less designAutoNr3/designAutoNr.c
+  954  cd ..
+  955  ls
+  956  cd designAutoNr
+  957  ls
+  958  rm -r designAutoNr3/*
+  959  rmdir designAutoNr3/
+  960  ls
+  961  cd
+  962  ls
+  963  history > hist
+  964  less hist 
+  965  tar -xvfz designAutoNr2.tar.gz 
+  966  tar xvfz designAutoNr2.tar.gz 
+  967  ls
+  968  ls
+  969  less designAutoNr2/subdesignsIO/
+  970  clear
+  971  pwd
+  972  cd designAutoNr/designAutoNr4/
+  973  less subdesignsIO/designp_000023.txt 
+  974  ./designAutoNr 22
+  975  less subdesignsIO/designp_000023.txt 
+  976  ./designAutoNr 22
+  977  make clean; make
+  978  clear
+  979  ./designAutoNr 22
+  980  wq
+  981  vim bvdatReader/bvdatReader6/
+  982  vim bvdatReader/bvdatReader6/bvdatreader.c
+  983  cd bvdatReader/bvdatReader6/
+  984  ls
+  985  ls
+  986  clear
+  987  ls
+  988  vim bvdatreader.c
+  989  vim bvdatreader.c
+  990  vim checkresults 
+  991  cd
+  992  clera
+  993  clear
+  994  cd designAutoNr/designAutoNr4/
+  995  ls
+  996  vim designAutoNr.c 
+  997  vim designAutoNr.c 
+  998  vim condorjob.designAutoNr 
+  999  clear
+ 1000  cd bvdatReader/bvdatReader6/
+ 1001  less checkresults 
+ 1002  vim checkresults 
+ 1003  ls newrunsdir/ | wc -l
+ 1004  ./checkresults 
+ 1005  cd ~/designAutoNr/designAutoNr4/
+ 1006  ls
+ 1007  less checkresults 
+ 1008  vim checkresults
+ 1009  cd ../designAutoNr5/
+ 1010  clear
+ 1011  ls
+ 1012  ls -a
+ 1013  make clean
+ 1014  make
+ 1015  ls
+ 1016  make clean
+ 1017  clear
+ 1018  make
+ 1019  ls
+ 1020  ./designAutoNr 
+ 1021  cp ../designAutoNr4/checkresults ./
+ 1022  clear
+ 1023  ls
+ 1024  ls
+ 1025  clear
+ 1026  less ../designAutoNr2/subdesignsIO/
+ 1027  less subdesignsIO/
+ 1028  ./checkresults 
+ 1029  clear
+ 1030  ls
+ 1031  ./checkresults 
+ 1032  make clean
+ 1033  make
+ 1034  make all
+ 1035  make clean
+ 1036  make all
+ 1037  clear
+ 1038  ./designAutoNr 
+ 1039  ./checkresults 
+ 1040  make clear
+ 1041  make clean
+ 1042  make
+ 1043  clear
+ 1044  rm subdesignsIO/*
+ 1045  ls subdesignsIO/
+ 1046  clear
+ 1047  ./designAutoNr 1
+ 1048  diff subdesignsIO/designp_000001.txt ../designAutoNr2/subdesignsIO/designp_000001.txt 
+ 1049  diff subdesignsIO/designp_000001.txt ../designAutoNr2/subdesignsIO/designp_000002.txt 
+ 1050  clear
+ 1051  diff subdesignsIO/designp_000002.txt ../designAutoNr2/subdesignsIO/designp_000001.txt 
+ 1052  clera
+ 1053  clear
+ 1054  diff subdesignsIO/designp_000001.txt ../designAutoNr2/subdesignsIO/designp_000001.txt 
+ 1055  ./designAutoNr 2
+ 1056  diff subdesignsIO/designp_000002.txt ../designAutoNr2/subdesignsIO/designp_000002.txt 
+ 1057  diff subdesignsIO/logheightp_000002.txt ../designAutoNr2/subdesignsIO/logheightp_000002.txt 
+ 1058  diff subdesignsIO/designp_000002.txt ../designAutoNr2/subdesignsIO/designp_000002.txt 
+ 1059  ./designAutoNr 23
+ 1060  diff subdesignsIO/designp_000023.txt ../designAutoNr2/subdesignsIO/designp_000023.txt
+ 1061  ../designAutoNr2/designAutoNr 
+ 1062  ls
+ 1063  ls ../designAutoNr2/subdesignsIO/designp_000023.txt
+ 1064  less ../designAutoNr2/subdesignsIO/designp_000023.txt
+ 1065  less ../subdesignsIO/designp_000023.txt
+ 1066  less ../designAutoNr2/subdesignsIO/designp_000023.txt
+ 1067  less subdesignsIO/designp_000023.txt
+ 1068  sftp rrutar@morbius.mscs.mu.edu
+ 1069  clear
+ 1070  ./designAutoNr 23
+ 1071  ls
+ 1072  clear
+ 1073  ls
+ 1074  clear
+ 1075  make clean; make
+ 1076  ./designAutoNr 23
+ 1077  wc -l subdesignsIO/logheightp_000001.txt 
+ 1078  ls subdesignsIO/
+ 1079  make clean
+ 1080  make
+ 1081  cler
+ 1082  clear
+ 1083  ./designAutoNr 1
+ 1084  make clean; make
+ 1085  ./designAutoNr 1
+ 1086  ./designAutoNr 23
+ 1087  clear
+ 1088  sftp rrutar@morbius.mscs.mu.edu
+ 1089  clear
+ 1090  ls
+ 1091  mv subdesigns.tar ~/
+ 1092  cd
+ 1093  ls
+ 1094  tar xvf subdesigns.tar 
+ 1095  clear
+ 1096  cd -
+ 1097  cd -
+ 1098  ls
+ 1099  cd -
+ 1100  clear
+ 1101  make clean
+ 1102  make
+ 1103  rm subdesignsIO/*
+ 1104  ./designAutoNr 1
+ 1105  diff subdesignsIO/logheightp_000001.txt ~/subdesigns/logheightp_000001.txt 
+ 1106  clear
+ 1107  less subdesignsIO/logheightp_000001.txt 
+ 1108  less ~/subdesigns/logheightp_000001.txt 
+ 1109  ./designAutoNr 23
+ 1110  less subdesignsIO/logheightp_000023.txt 
+ 1111  less ~/subdesigns/logheightp_000023.txt 
+ 1112  less ~/subdesigns/designp_000023.txt 
+ 1113  less  ./subdesignsIO/designp_000023.txt 
+ 1114  man diff
+ 1115  less ~/subdesigns/logheightp_000001.txt 
+ 1116  diff ~/subdesigns/logheightp_000001.txt ~/subdesigns/logheightp_000001.txt 
+ 1117  diff ~/subdesigns/logheightp_000023.txt ~/subdesigns/logheightp_000023.txt 
+ 1118  ls ..
+ 1119  clear
+ 1120  ls
+ 1121  clear
+ 1122  ls
+ 1123  ls
+ 1124  pwd
+ 1125  cler
+ 1126  clera
+ 1127  clear
+ 1128  ls
+ 1129  less subdesignsIO/
+ 1130  make clean; make; rm subdesignsIO/*
+ 1131  clear
+ 1132  ./designAutoNr 1
+ 1133  diff subdesignsIO/logheightp_000001.txt ../designAutoNr2/subdesignsIO/logheightp_000001.txt 
+ 1134  diff subdesignsIO/designp_000001.txt ../designAutoNr2/subdesignsIO/designp_000001.txt 
+ 1135  clear
+ 1136  ./designAutoNr 23
+ 1137  diff subdesignsIO/designp_0000023.txt ../designAutoNr2/subdesignsIO/designp_0000023.txt 
+ 1138  diff subdesignsIO/designp_000023.txt ../designAutoNr2/subdesignsIO/designp_0000023.txt 
+ 1139  diff subdesignsIO/designp_000023.txt ../designAutoNr2/subdesignsIO/designp_000023.txt 
+ 1140  clear
+ 1141  cp ~/bvdatReader/bvdatReader6/condorjob.bvdatreader ./
+ 1142  ls
+ 1143  mv condorjob.bvdatreader condorjob.designAutoNr
+ 1144  cp ../designAutoNr2/designAutoNr.c ./
+ 1145  make clean
+ 1146  make
+ 1147  ./designAutoNr 3
+ 1148  diff subdesignsIO/designp_000004.txt ../designAutoNr2/subdesignsIO/designp_00004.txt 
+ 1149  diff subdesignsIO/designp_000004.txt ../designAutoNr2/subdesignsIO/designp_000004.txt 
+ 1150  ./designAutoNr 1
+ 1151  less subdesignsIO/logheightp_000001.txt 
+ 1152  ./designAutoNr 22
+ 1153  less subdesignsIO/logheightp_000023.txt 
+ 1154  less subdesignsIO/designp_000023.txt 
+ 1155  condor_submit condorjob.designAutoNr 
+ 1156  clear
+ 1157  pwd
+ 1158  ls
+ 1159  mkdir dircondordan
+ 1160  ls
+ 1161  condor_submit condorjob.designAutoNr 
+ 1162* condoq_s -submitter rutarindwar
+ 1163  hist >> hist
+ 1164  less hist 
+ 1165  hist
+ 1166  history >> hist

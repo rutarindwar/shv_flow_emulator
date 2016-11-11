@@ -1,0 +1,8 @@
+Universe    = vanilla
+Executable  = cleanUpbvdatreader
+Arguments   = $(Process)
+Log         = dircondorcu/log.$(Process)
+Output      = dircondorcu/out.$(Process)
+Error       = dircondorcu/err.$(Process)
+
+Queue 1953

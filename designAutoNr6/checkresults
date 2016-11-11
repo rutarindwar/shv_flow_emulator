@@ -1,0 +1,15 @@
+#! /bin/bash
+# check results of condor outputs with original results.
+
+
+ORIGINAL_DIR=~/designAutoNr/designAutoNr5/subdesignsIO
+
+echo $ORIGINAL_DIR
+NEW_DIR=./subdesignsIO/
+
+for file in  $ORIGINAL_DIR/*
+do
+    fname=$(basename $file)
+    echo $fname
+    diff $file $NEW_DIR/$fname
+done

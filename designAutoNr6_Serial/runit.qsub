@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#PBS -N auto5
+#PBS -l nodes=1:ppn=1,walltime=12:00:00
+#PBS -q batch
+#PBS -j oe
+#PBS -o log-$PBS_JOBNAME-$PBS_JOBID
+
+for id in `seq $start_idx $end_idx`;
+do  
+   ./designAutoNr $id;
+done
