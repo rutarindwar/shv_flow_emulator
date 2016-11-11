@@ -1,6 +1,5 @@
-
 C translation of the emulator code from the juq paper.
 A workflow would be:
-1) Run dataReader: this reads pileheight records, and save heights at all locations2) Run designAuto: this choose the right design for a particular location
+1) Run dataReader: this reads pileheight records, and save heights at all locations
+2) Run designAuto: this choose the right design for a particular location
 3) Run flowEm : this fit a Gaussian process over the subdesign created in the step above and compute the inundation contours.
-
